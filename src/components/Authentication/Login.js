@@ -39,7 +39,7 @@ const Login = () => {
       };
       console.log(email, password);
       const { data } = await axios.post(
-        "/api/user/login",
+        "https://thunderbolt.onrender.com/api/user/login",
         { email, password },
         config
       );

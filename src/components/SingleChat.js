@@ -18,7 +18,7 @@ import ScrollableChat from "./ScrollableChat";
 import io from "socket.io-client";
 import "./styles.css";
 
-const ENDPOINT = "https://thunderbolt.onrender.com/";
+const ENDPOINT = "https://thunderbolt.onrender.com";
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
